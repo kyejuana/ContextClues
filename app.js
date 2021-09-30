@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
          
         h3.addEventListener('click', function () {
 
-            let friend = friends[Math.floor(Math.random() * friends.length)];
-            let weapon = weapons[Math.floor(Math.random() * weapons.length)];
-            let location = locations[Math.floor(Math.random() * locations.length)];
+            var friend = friends[Math.floor(Math.random() * friends.length)];
+            var weapon = weapons[Math.floor(Math.random() * weapons.length)];
+            var location = locations[Math.floor(Math.random() * locations.length)];
                 
             alert("Accusation " + i + ": I accuse " + friend + " of attacking them using " + weapon + " while at " + location + "!");
         });
