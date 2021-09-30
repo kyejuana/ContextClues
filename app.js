@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     for (let i = 1; i < 101; i++) {
         //i know that i'm not supposed to have 101 on there but it kept stopping at 99
         var h3 = document.createElement("h3");
-        h3.innerText = "Accusation " + i + ".";
+        h3.innerText = "~" + "Accusation " + i + "~";
          
         h3.addEventListener('click', function () {
 
